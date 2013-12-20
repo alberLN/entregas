@@ -1,0 +1,35 @@
+<!--
+	Descripción ejercicio: Crear una postal de navidad con canvas y elementos de la libreria KineticJs
+	Autor: Alberto Lahuerta Navarro
+	Centro: Centre d'Estudis Politécnics
+	Clase: DAM2A
+	Curso: Desenvolupament d'aplicacions web
+	Año: 2013-2014
+-->
+<html lang="es">
+	<head>
+		<title>Feliz Navidad</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+		<link rel="shortcut icon" href="img/icon.png">
+		<script src="js/kinetic.js"></script>
+		<script src="js/eventMusic.js"></script>
+		<script src="js/animBcn.js"></script>
+		<script src="js/animAereo.js"></script>
+		<script src="js/animNieve.js"></script>
+		<script src="js/animEstrellas.js"></script>
+		<script src="js/animPapaNoel.js"></script>
+		<script src="js/animPalabras.js"></script>
+		<script src="js/startAnims.js"></script>
+	</head>
+	<body onload="start()">
+		<!-- Contenedor del canvas -->
+		<div id="container"></div>
+		
+		<!-- Audio -->
+		<audio autoplay="autoplay" loop="true">
+		  <source src="sounds/navidad.mp3" type="audio/mp3">
+		  <p style="color: red"> El navegador no soporta éste tipo de elemento de audio </p>
+		</audio>
+	</body>
+</html>
